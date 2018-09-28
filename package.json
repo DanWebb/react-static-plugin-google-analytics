@@ -1,0 +1,23 @@
+{
+  "name": "react-static-plugin-google-analytics",
+  "version": "0.0.0",
+  "description": "A React-Static plugin that adds Google Analytics tracking",
+  "repository": "https://github.com/DanWebb/react-static-plugin-google-analytics",
+  "main": "lib.js",
+  "keywords": [],
+  "author": "Dan Webb <mail@danwebb.co> (https://danwebb.co)",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel index.js > lib.js",
+    "prepublishOnly": "yarn build"
+  },
+  "peerDependencies": {
+    "react": "^16.5"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1",
+    "@babel/core": "^7.1",
+    "@babel/preset-env": "^7.1",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
